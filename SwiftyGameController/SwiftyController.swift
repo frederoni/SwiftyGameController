@@ -22,7 +22,7 @@ public enum ControllerConnectionState : UInt16 {
     case hardware
 }
 
-protocol ControllerDelegate {
+public protocol GameControllerDelegate {
     func controllerConnectionStateChanged(state: ControllerConnectionState)
 }
 
@@ -45,7 +45,7 @@ public class GameController : NSObject {
     public var stickChangedHandler: StickChangedHandler?
     public var padChangedHandler: StickChangedHandler?
     
-    var delegate: ControllerDelegate?
+    public var delegate: GameControllerDelegate?
     
     override public init() {
         super.init()
