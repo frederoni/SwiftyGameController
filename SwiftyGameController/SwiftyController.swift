@@ -73,15 +73,15 @@ public class GameController : NSObject {
     func setupHardwareController() {
         hardwareController.delegate = self
         
-        hardwareController.thumbstickChangedHandler = {[weak self] (type, offset) in
+        hardwareController.thumbstickChangedHandler = {[unowned self] (type, offset) in
             DispatchQueue.main.async {
-                self?.stickChangedHandler?(type, offset)
+                self.stickChangedHandler?(type, offset)
             }
         }
         
-        hardwareController.buttonChangedHandler = {[weak self] (type, value, pressed) in
+        hardwareController.buttonChangedHandler = {[unowned self] (type, value, pressed) in
             DispatchQueue.main.async {
-                self?.buttonChangedHandler?(type, value, pressed)
+                self.buttonChangedHandler?(type, value, pressed)
             }
         }
     }
