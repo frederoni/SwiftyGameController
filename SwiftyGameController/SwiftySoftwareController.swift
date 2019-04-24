@@ -39,7 +39,7 @@ class JoystickView: UIView {
         
         stickLayer.lineWidth = 8
         stickLayer.strokeColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1).cgColor
-        stickLayer.lineCap = .round
+        stickLayer.lineCap = kCALineCapRound
         
         dotView.backgroundColor = #colorLiteral(red: 0.5843137503, green: 0.8235294223, blue: 0.4196078479, alpha: 1)
         dotView.layer.cornerRadius = dotSize.width/2
