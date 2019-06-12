@@ -13,14 +13,17 @@
 		358BCAA71F3E643000046479 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 358BCAA61F3E643000046479 /* Assets.xcassets */; };
 		358BCAAA1F3E643000046479 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 358BCAA81F3E643000046479 /* LaunchScreen.storyboard */; };
 		358BCABF1F3E644E00046479 /* SwiftyGameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358BCAB61F3E644E00046479 /* SwiftyGameController.framework */; };
-		358BCAC61F3E644E00046479 /* SwiftyGameControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358BCAC51F3E644E00046479 /* SwiftyGameControllerTests.swift */; };
-		358BCAC81F3E644E00046479 /* SwiftyGameController.h in Headers */ = {isa = PBXBuildFile; fileRef = 358BCAB81F3E644E00046479 /* SwiftyGameController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		358BCACB1F3E644E00046479 /* SwiftyGameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358BCAB61F3E644E00046479 /* SwiftyGameController.framework */; };
 		358BCACC1F3E644E00046479 /* SwiftyGameController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 358BCAB61F3E644E00046479 /* SwiftyGameController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		358BCAD51F3E646200046479 /* SwiftyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358BCAD41F3E646200046479 /* SwiftyController.swift */; };
-		358BCAD71F3E647100046479 /* SwiftySoftwareController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358BCAD61F3E647100046479 /* SwiftySoftwareController.swift */; };
-		358BCAD91F3E647C00046479 /* SwiftyHardwareController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358BCAD81F3E647C00046479 /* SwiftyHardwareController.swift */; };
-		358BCADD1F3E697800046479 /* Joystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358BCADC1F3E697800046479 /* Joystick.swift */; };
+		35EEA59222B1A53B00C1ED63 /* SwiftyGameController.h in Headers */ = {isa = PBXBuildFile; fileRef = 35EEA58B22B1A53A00C1ED63 /* SwiftyGameController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35EEA59322B1A53B00C1ED63 /* SwiftyHardwareController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EEA58C22B1A53A00C1ED63 /* SwiftyHardwareController.swift */; };
+		35EEA59422B1A53B00C1ED63 /* SwiftyGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EEA58D22B1A53A00C1ED63 /* SwiftyGameController.swift */; };
+		35EEA59522B1A53B00C1ED63 /* Joystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EEA58E22B1A53A00C1ED63 /* Joystick.swift */; };
+		35EEA59622B1A53B00C1ED63 /* SwiftySoftwareController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EEA58F22B1A53A00C1ED63 /* SwiftySoftwareController.swift */; };
+		35EEA59722B1A53B00C1ED63 /* SwiftyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EEA59022B1A53A00C1ED63 /* SwiftyController.swift */; };
+		35EEA59E22B1A54D00C1ED63 /* LinuxMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EEA59A22B1A54C00C1ED63 /* LinuxMain.swift */; };
+		35EEA59F22B1A54D00C1ED63 /* SwiftyGameControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EEA59C22B1A54C00C1ED63 /* SwiftyGameControllerTests.swift */; };
+		35EEA5A022B1A54D00C1ED63 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EEA59D22B1A54C00C1ED63 /* XCTestManifests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,15 +73,17 @@
 		358BCAA91F3E643000046479 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		358BCAAB1F3E643000046479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		358BCAB61F3E644E00046479 /* SwiftyGameController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyGameController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		358BCAB81F3E644E00046479 /* SwiftyGameController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyGameController.h; sourceTree = "<group>"; };
-		358BCAB91F3E644E00046479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		358BCABE1F3E644E00046479 /* SwiftyGameControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyGameControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		358BCAC51F3E644E00046479 /* SwiftyGameControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyGameControllerTests.swift; sourceTree = "<group>"; };
-		358BCAC71F3E644E00046479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		358BCAD41F3E646200046479 /* SwiftyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyController.swift; sourceTree = "<group>"; };
-		358BCAD61F3E647100046479 /* SwiftySoftwareController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftySoftwareController.swift; sourceTree = "<group>"; };
-		358BCAD81F3E647C00046479 /* SwiftyHardwareController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyHardwareController.swift; sourceTree = "<group>"; };
-		358BCADC1F3E697800046479 /* Joystick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joystick.swift; sourceTree = "<group>"; };
+		35EEA58B22B1A53A00C1ED63 /* SwiftyGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyGameController.h; sourceTree = "<group>"; };
+		35EEA58C22B1A53A00C1ED63 /* SwiftyHardwareController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyHardwareController.swift; sourceTree = "<group>"; };
+		35EEA58D22B1A53A00C1ED63 /* SwiftyGameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyGameController.swift; sourceTree = "<group>"; };
+		35EEA58E22B1A53A00C1ED63 /* Joystick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joystick.swift; sourceTree = "<group>"; };
+		35EEA58F22B1A53A00C1ED63 /* SwiftySoftwareController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftySoftwareController.swift; sourceTree = "<group>"; };
+		35EEA59022B1A53A00C1ED63 /* SwiftyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyController.swift; sourceTree = "<group>"; };
+		35EEA59122B1A53A00C1ED63 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35EEA59A22B1A54C00C1ED63 /* LinuxMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
+		35EEA59C22B1A54C00C1ED63 /* SwiftyGameControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyGameControllerTests.swift; sourceTree = "<group>"; };
+		35EEA59D22B1A54C00C1ED63 /* XCTestManifests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				358BCA9E1F3E643000046479 /* SwiftyGameControllerExample */,
-				358BCAB71F3E644E00046479 /* SwiftyGameController */,
-				358BCAC41F3E644E00046479 /* SwiftyGameControllerTests */,
+				35EEA58922B1A53A00C1ED63 /* Sources */,
+				35EEA59922B1A54C00C1ED63 /* Tests */,
 				358BCA9D1F3E643000046479 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -141,24 +146,42 @@
 			path = SwiftyGameControllerExample;
 			sourceTree = "<group>";
 		};
-		358BCAB71F3E644E00046479 /* SwiftyGameController */ = {
+		35EEA58922B1A53A00C1ED63 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				358BCAB81F3E644E00046479 /* SwiftyGameController.h */,
-				358BCAB91F3E644E00046479 /* Info.plist */,
-				358BCAD41F3E646200046479 /* SwiftyController.swift */,
-				358BCAD61F3E647100046479 /* SwiftySoftwareController.swift */,
-				358BCAD81F3E647C00046479 /* SwiftyHardwareController.swift */,
-				358BCADC1F3E697800046479 /* Joystick.swift */,
+				35EEA58A22B1A53A00C1ED63 /* SwiftyGameController */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		35EEA58A22B1A53A00C1ED63 /* SwiftyGameController */ = {
+			isa = PBXGroup;
+			children = (
+				35EEA58B22B1A53A00C1ED63 /* SwiftyGameController.h */,
+				35EEA58C22B1A53A00C1ED63 /* SwiftyHardwareController.swift */,
+				35EEA58D22B1A53A00C1ED63 /* SwiftyGameController.swift */,
+				35EEA58E22B1A53A00C1ED63 /* Joystick.swift */,
+				35EEA58F22B1A53A00C1ED63 /* SwiftySoftwareController.swift */,
+				35EEA59022B1A53A00C1ED63 /* SwiftyController.swift */,
+				35EEA59122B1A53A00C1ED63 /* Info.plist */,
 			);
 			path = SwiftyGameController;
 			sourceTree = "<group>";
 		};
-		358BCAC41F3E644E00046479 /* SwiftyGameControllerTests */ = {
+		35EEA59922B1A54C00C1ED63 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				358BCAC51F3E644E00046479 /* SwiftyGameControllerTests.swift */,
-				358BCAC71F3E644E00046479 /* Info.plist */,
+				35EEA59A22B1A54C00C1ED63 /* LinuxMain.swift */,
+				35EEA59B22B1A54C00C1ED63 /* SwiftyGameControllerTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		35EEA59B22B1A54C00C1ED63 /* SwiftyGameControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				35EEA59C22B1A54C00C1ED63 /* SwiftyGameControllerTests.swift */,
+				35EEA59D22B1A54C00C1ED63 /* XCTestManifests.swift */,
 			);
 			path = SwiftyGameControllerTests;
 			sourceTree = "<group>";
@@ -170,7 +193,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				358BCAC81F3E644E00046479 /* SwiftyGameController.h in Headers */,
+				35EEA59222B1A53B00C1ED63 /* SwiftyGameController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,10 +340,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				358BCAD71F3E647100046479 /* SwiftySoftwareController.swift in Sources */,
-				358BCADD1F3E697800046479 /* Joystick.swift in Sources */,
-				358BCAD91F3E647C00046479 /* SwiftyHardwareController.swift in Sources */,
-				358BCAD51F3E646200046479 /* SwiftyController.swift in Sources */,
+				35EEA59522B1A53B00C1ED63 /* Joystick.swift in Sources */,
+				35EEA59322B1A53B00C1ED63 /* SwiftyHardwareController.swift in Sources */,
+				35EEA59722B1A53B00C1ED63 /* SwiftyController.swift in Sources */,
+				35EEA59622B1A53B00C1ED63 /* SwiftySoftwareController.swift in Sources */,
+				35EEA59422B1A53B00C1ED63 /* SwiftyGameController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +352,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				358BCAC61F3E644E00046479 /* SwiftyGameControllerTests.swift in Sources */,
+				35EEA59E22B1A54D00C1ED63 /* LinuxMain.swift in Sources */,
+				35EEA59F22B1A54D00C1ED63 /* SwiftyGameControllerTests.swift in Sources */,
+				35EEA5A022B1A54D00C1ED63 /* XCTestManifests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +454,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -479,6 +506,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -492,7 +520,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.frederoni.SwiftyGameControllerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -506,7 +533,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.frederoni.SwiftyGameControllerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -521,14 +547,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SwiftyGameController/Info.plist;
+				INFOPLIST_FILE = Sources/SwiftyGameController/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.frederoni.SwiftyGameController;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -545,13 +570,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SwiftyGameController/Info.plist;
+				INFOPLIST_FILE = Sources/SwiftyGameController/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.frederoni.SwiftyGameController;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -566,7 +590,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.frederoni.SwiftyGameControllerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyGameControllerExample.app/SwiftyGameControllerExample";
 			};
@@ -580,7 +603,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.frederoni.SwiftyGameControllerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyGameControllerExample.app/SwiftyGameControllerExample";
 			};
